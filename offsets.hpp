@@ -4,9 +4,9 @@
 /*               https://imtheo.lol/Offsets                     
 /* -------------------------------------------------------------
 /*  Dumped By       : theo (https://imtheo.lol)                 
-/*  Roblox Version  : version-460909c4fe904aae
+/*  Roblox Version  : version-ad5d3e2906444472
 /*  Dumper Version  : 2.1.7
-/*  Dumped At       : 02:17 27/05/2026 (GMT)
+/*  Dumped At       : 21:59 03/06/2026 (GMT)
 /*  Total Offsets   : 381
 /* -------------------------------------------------------------
 /*  Join the discord!                                           
@@ -17,7 +17,7 @@
 #include <cstdint>
 #include <string>
 namespace Offsets {
-    inline std::string ClientVersion = "version-460909c4fe904aae";
+    inline std::string ClientVersion = "version-ad5d3e2906444472";
 
     namespace AirProperties {
          inline constexpr uintptr_t AirDensity = 0x18;
@@ -173,7 +173,7 @@ namespace Offsets {
     }
 
     namespace FakeDataModel {
-         inline constexpr uintptr_t Pointer = 0x78cf1d8;
+         inline constexpr uintptr_t Pointer = 0x78ff228;
          inline constexpr uintptr_t RealDataModel = 0x1d0;
     }
 
@@ -184,20 +184,20 @@ namespace Offsets {
     }
 
     namespace GuiObject {
-         inline constexpr uintptr_t BackgroundColor3 = 0x550;
-         inline constexpr uintptr_t BackgroundTransparency = 0x55c;
-         inline constexpr uintptr_t BorderColor3 = 0x55c;
-         inline constexpr uintptr_t Image = 0x998;
-         inline constexpr uintptr_t LayoutOrder = 0x590;
-         inline constexpr uintptr_t Position = 0x520;
-         inline constexpr uintptr_t RichText = 0xb68;
+         inline constexpr uintptr_t BackgroundColor3 = 0x540;
+         inline constexpr uintptr_t BackgroundTransparency = 0x54c;
+         inline constexpr uintptr_t BorderColor3 = 0x54c;
+         inline constexpr uintptr_t Image = 0x988;
+         inline constexpr uintptr_t LayoutOrder = 0x580;
+         inline constexpr uintptr_t Position = 0x510;
+         inline constexpr uintptr_t RichText = 0xb58;
          inline constexpr uintptr_t Rotation = 0x188;
-         inline constexpr uintptr_t ScreenGui_Enabled = 0x4d4;
-         inline constexpr uintptr_t Size = 0x540;
-         inline constexpr uintptr_t Text = 0xdb0;
-         inline constexpr uintptr_t TextColor3 = 0xe60;
-         inline constexpr uintptr_t Visible = 0x5bd;
-         inline constexpr uintptr_t ZIndex = 0x5b4;
+         inline constexpr uintptr_t ScreenGui_Enabled = 0x4c4;
+         inline constexpr uintptr_t Size = 0x530;
+         inline constexpr uintptr_t Text = 0xda0;
+         inline constexpr uintptr_t TextColor3 = 0xe50;
+         inline constexpr uintptr_t Visible = 0x5ad;
+         inline constexpr uintptr_t ZIndex = 0x19b;
     }
 
     namespace Humanoid {
@@ -229,6 +229,7 @@ namespace Offsets {
          inline constexpr uintptr_t NameDisplayDistance = 0x1bc;
          inline constexpr uintptr_t NameOcclusion = 0x1c0;
          inline constexpr uintptr_t PlatformStand = 0x1e8;
+         inline constexpr uintptr_t PlatformStatePointer = 0x0;
          inline constexpr uintptr_t RequiresNeck = 0x1e9;
          inline constexpr uintptr_t RigType = 0x1cc;
          inline constexpr uintptr_t SeatPart = 0x120;
@@ -369,7 +370,7 @@ namespace Offsets {
          inline constexpr uintptr_t MaxZoomDistance = 0x330;
          inline constexpr uintptr_t MinZoomDistance = 0x334;
          inline constexpr uintptr_t ModelInstance = 0x3a8;
-         inline constexpr uintptr_t Mouse = 0x1178;
+         inline constexpr uintptr_t Mouse = 0x1180;
          inline constexpr uintptr_t NameDisplayDistance = 0x368;
          inline constexpr uintptr_t Team = 0x2b0;
          inline constexpr uintptr_t TeamColor = 0x374;
@@ -472,130 +473,4 @@ namespace Offsets {
          inline constexpr uintptr_t Volume = 0x148;
     }
 
-    namespace SpawnLocation {
-         inline constexpr uintptr_t AllowTeamChangeOnTouch = 0x45;
-         inline constexpr uintptr_t Enabled = 0x1f9;
-         inline constexpr uintptr_t ForcefieldDuration = 0x1f0;
-         inline constexpr uintptr_t Neutral = 0x1fa;
-         inline constexpr uintptr_t TeamColor = 0x1f4;
-    }
-
-    namespace SpecialMesh {
-         inline constexpr uintptr_t MeshId = 0x108;
-         inline constexpr uintptr_t Scale = 0xdc;
-    }
-
-    namespace StatsItem {
-         inline constexpr uintptr_t Value = 0xc8;
-    }
-
-    namespace SunRaysEffect {
-         inline constexpr uintptr_t Enabled = 0xc8;
-         inline constexpr uintptr_t Intensity = 0xd0;
-         inline constexpr uintptr_t Spread = 0xd4;
-    }
-
-    namespace SurfaceAppearance {
-         inline constexpr uintptr_t AlphaMode = 0x2a0;
-         inline constexpr uintptr_t Color = 0x288;
-         inline constexpr uintptr_t ColorMap = 0xe0;
-         inline constexpr uintptr_t EmissiveMaskContent = 0x110;
-         inline constexpr uintptr_t EmissiveStrength = 0x2a4;
-         inline constexpr uintptr_t EmissiveTint = 0x294;
-         inline constexpr uintptr_t MetalnessMap = 0x140;
-         inline constexpr uintptr_t NormalMap = 0x170;
-         inline constexpr uintptr_t RoughnessMap = 0x1a0;
-    }
-
-    namespace TaskScheduler {
-         inline constexpr uintptr_t JobEnd = 0xd0;
-         inline constexpr uintptr_t JobName = 0x18;
-         inline constexpr uintptr_t JobStart = 0xc8;
-         inline constexpr uintptr_t MaxFPS = 0xb0;
-         inline constexpr uintptr_t Pointer = 0x7e5f678;
-    }
-
-    namespace Team {
-         inline constexpr uintptr_t BrickColor = 0xd0;
-    }
-
-    namespace Terrain {
-         inline constexpr uintptr_t GrassLength = 0x1f8;
-         inline constexpr uintptr_t MaterialColors = 0x2a8;
-         inline constexpr uintptr_t WaterColor = 0x1e8;
-         inline constexpr uintptr_t WaterReflectance = 0x200;
-         inline constexpr uintptr_t WaterTransparency = 0x204;
-         inline constexpr uintptr_t WaterWaveSize = 0x208;
-         inline constexpr uintptr_t WaterWaveSpeed = 0x20c;
-    }
-
-    namespace Textures {
-         inline constexpr uintptr_t Decal_Texture = 0x198;
-         inline constexpr uintptr_t Texture_Texture = 0x198;
-    }
-
-    namespace Tool {
-         inline constexpr uintptr_t CanBeDropped = 0x4c8;
-         inline constexpr uintptr_t Enabled = 0x1b5;
-         inline constexpr uintptr_t Grip = 0x4bc;
-         inline constexpr uintptr_t ManualActivationOnly = 0x4ca;
-         inline constexpr uintptr_t RequiresHandle = 0x4cb;
-         inline constexpr uintptr_t TextureId = 0x370;
-         inline constexpr uintptr_t Tooltip = 0x478;
-    }
-
-    namespace UnionOperation {
-         inline constexpr uintptr_t AssetId = 0x2f8;
-    }
-
-    namespace UserInputService {
-         inline constexpr uintptr_t WindowInputState = 0x2d8;
-    }
-
-    namespace VehicleSeat {
-         inline constexpr uintptr_t MaxSpeed = 0x238;
-         inline constexpr uintptr_t SteerFloat = 0x240;
-         inline constexpr uintptr_t ThrottleFloat = 0x248;
-         inline constexpr uintptr_t Torque = 0x24c;
-         inline constexpr uintptr_t TurnSpeed = 0x250;
-    }
-
-    namespace VisualEngine {
-         inline constexpr uintptr_t Dimensions = 0xab0;
-         inline constexpr uintptr_t FakeDataModel = 0xa90;
-         inline constexpr uintptr_t Pointer = 0x7fed100;
-         inline constexpr uintptr_t RenderView = 0xbb0;
-         inline constexpr uintptr_t ViewMatrix = 0x150;
-    }
-
-    namespace Weld {
-         inline constexpr uintptr_t Part0 = 0x130;
-         inline constexpr uintptr_t Part1 = 0x140;
-    }
-
-    namespace WeldConstraint {
-         inline constexpr uintptr_t Part0 = 0xd0;
-         inline constexpr uintptr_t Part1 = 0xe0;
-    }
-
-    namespace WindowInputState {
-         inline constexpr uintptr_t CapsLock = 0x40;
-         inline constexpr uintptr_t CurrentTextBox = 0x48;
-    }
-
-    namespace Workspace {
-         inline constexpr uintptr_t CurrentCamera = 0x4b0;
-         inline constexpr uintptr_t DistributedGameTime = 0x4d0;
-         inline constexpr uintptr_t ReadOnlyGravity = 0x9f0;
-         inline constexpr uintptr_t World = 0x408;
-    }
-
-    namespace World {
-         inline constexpr uintptr_t AirProperties = 0x218;
-         inline constexpr uintptr_t FallenPartsDestroyHeight = 0x208;
-         inline constexpr uintptr_t Gravity = 0x210;
-         inline constexpr uintptr_t Primitives = 0x280;
-         inline constexpr uintptr_t worldStepsPerSec = 0x678;
-    }
-
-}
+    namespace Spawn
