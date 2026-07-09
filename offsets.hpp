@@ -479,4 +479,147 @@ namespace Offsets {
          inline constexpr uintptr_t SkyboxFt = 0x158;
          inline constexpr uintptr_t SkyboxLf = 0x188;
          inline constexpr uintptr_t SkyboxOrientation = 0x238;
-         inline constexpr uintptr_t SkyboxRt = 0x1b8
+         inline constexpr uintptr_t SkyboxRt = 0x1b8;
+         inline constexpr uintptr_t SkyboxUp = 0x1e8;
+         inline constexpr uintptr_t StarCount = 0x248;
+         inline constexpr uintptr_t SunAngularSize = 0x23c;
+         inline constexpr uintptr_t SunTextureId = 0x218;
+    }
+
+    namespace Sound {
+         inline constexpr uintptr_t Looped = 0x13d;
+         inline constexpr uintptr_t PlaybackSpeed = 0x11c;
+         inline constexpr uintptr_t RollOffMaxDistance = 0x120;
+         inline constexpr uintptr_t RollOffMinDistance = 0x124;
+         inline constexpr uintptr_t SoundGroup = 0xe8;
+         inline constexpr uintptr_t SoundId = 0xc8;
+         inline constexpr uintptr_t Volume = 0x130;
+    }
+
+    namespace SpawnLocation {
+         inline constexpr uintptr_t AllowTeamChangeOnTouch = 0x3d;
+         inline constexpr uintptr_t Enabled = 0x189;
+         inline constexpr uintptr_t ForcefieldDuration = 0x180;
+         inline constexpr uintptr_t Neutral = 0x18a;
+         inline constexpr uintptr_t TeamColor = 0x184;
+    }
+
+    namespace SpecialMesh {
+         inline constexpr uintptr_t MeshId = 0xf8;
+         inline constexpr uintptr_t Scale = 0xc4;
+    }
+
+    namespace StatsItem {
+         inline constexpr uintptr_t Value = 0xc8;
+    }
+
+    namespace SunRaysEffect {
+         inline constexpr uintptr_t Enabled = 0xb0;
+         inline constexpr uintptr_t Intensity = 0xb8;
+         inline constexpr uintptr_t Spread = 0xbc;
+    }
+
+    namespace SurfaceAppearance {
+         inline constexpr uintptr_t AlphaMode = 0x288;
+         inline constexpr uintptr_t Color = 0x270;
+         inline constexpr uintptr_t ColorMap = 0xc8;
+         inline constexpr uintptr_t EmissiveMaskContent = 0xf8;
+         inline constexpr uintptr_t EmissiveStrength = 0x28c;
+         inline constexpr uintptr_t EmissiveTint = 0x27c;
+         inline constexpr uintptr_t MetalnessMap = 0x128;
+         inline constexpr uintptr_t NormalMap = 0x158;
+         inline constexpr uintptr_t RoughnessMap = 0x188;
+    }
+
+    namespace TaskScheduler {
+         inline constexpr uintptr_t JobEnd = 0xd0;
+         inline constexpr uintptr_t JobName = 0x18;
+         inline constexpr uintptr_t JobStart = 0xc8;
+         inline constexpr uintptr_t MaxFPS = 0xb0;
+         inline constexpr uintptr_t Pointer = 0x8041ec8;
+    }
+
+    namespace Team {
+         inline constexpr uintptr_t BrickColor = 0xb8;
+    }
+
+    namespace Terrain {
+         inline constexpr uintptr_t GrassLength = 0x188;
+         inline constexpr uintptr_t MaterialColors = 0x438;
+         inline constexpr uintptr_t WaterColor = 0x178;
+         inline constexpr uintptr_t WaterReflectance = 0x190;
+         inline constexpr uintptr_t WaterTransparency = 0x194;
+         inline constexpr uintptr_t WaterWaveSize = 0x198;
+         inline constexpr uintptr_t WaterWaveSpeed = 0x19c;
+    }
+
+    namespace Textures {
+         inline constexpr uintptr_t Decal_Texture = 0x180;
+         inline constexpr uintptr_t Texture_Texture = 0x180;
+    }
+
+    namespace Tool {
+         inline constexpr uintptr_t CanBeDropped = 0x4b8;
+         inline constexpr uintptr_t Enabled = 0x4b9;
+         inline constexpr uintptr_t Grip = 0x4ac;
+         inline constexpr uintptr_t ManualActivationOnly = 0x4ba;
+         inline constexpr uintptr_t RequiresHandle = 0x4bb;
+         inline constexpr uintptr_t TextureId = 0x360;
+         inline constexpr uintptr_t Tooltip = 0x468;
+    }
+
+    namespace UnionOperation {
+         inline constexpr uintptr_t AssetId = 0x288;
+    }
+
+    namespace UserInputService {
+         inline constexpr uintptr_t WindowInputState = 0x2c0;
+    }
+
+    namespace VehicleSeat {
+         inline constexpr uintptr_t MaxSpeed = 0x1c8;
+         inline constexpr uintptr_t SteerFloat = 0x1d0;
+         inline constexpr uintptr_t ThrottleFloat = 0x1d8;
+         inline constexpr uintptr_t Torque = 0x1dc;
+         inline constexpr uintptr_t TurnSpeed = 0x1e0;
+    }
+
+    namespace VisualEngine {
+         inline constexpr uintptr_t Dimensions = 0xab0;
+         inline constexpr uintptr_t FakeDataModel = 0xa90;
+         inline constexpr uintptr_t Pointer = 0x81d61c8;
+         inline constexpr uintptr_t RenderView = 0xbb8;
+         inline constexpr uintptr_t ViewMatrix = 0x150;
+    }
+
+    namespace Weld {
+         inline constexpr uintptr_t Part0 = 0x118;
+         inline constexpr uintptr_t Part1 = 0x128;
+    }
+
+    namespace WeldConstraint {
+         inline constexpr uintptr_t Part0 = 0xb8;
+         inline constexpr uintptr_t Part1 = 0xc8;
+    }
+
+    namespace WindowInputState {
+         inline constexpr uintptr_t CapsLock = 0x40;
+         inline constexpr uintptr_t CurrentTextBox = 0x48;
+    }
+
+    namespace Workspace {
+         inline constexpr uintptr_t CurrentCamera = 0x488;
+         inline constexpr uintptr_t DistributedGameTime = 0x4a8;
+         inline constexpr uintptr_t ReadOnlyGravity = 0x998;
+         inline constexpr uintptr_t World = 0x3e0;
+    }
+
+    namespace World {
+         inline constexpr uintptr_t AirProperties = 0x218;
+         inline constexpr uintptr_t FallenPartsDestroyHeight = 0x208;
+         inline constexpr uintptr_t Gravity = 0x210;
+         inline constexpr uintptr_t Primitives = 0x288;
+         inline constexpr uintptr_t worldStepsPerSec = 0x680;
+    }
+
+}
